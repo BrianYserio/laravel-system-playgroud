@@ -42,7 +42,7 @@
                   </label>
                 </div>
                 <div class="text-sm">
-                  <a href="jajvascript:void(0);" class="text-blue-600 hover:underline font-semibold">
+                  <a href="#" class="text-blue-600 hover:underline font-semibold">
                     Forgot your password?
                   </a>
                 </div>

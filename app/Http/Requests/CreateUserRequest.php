@@ -2,7 +2,7 @@
 
 namespace App\Http\Requests;
 
-use Illuminate\Foundation\Http\FormRequest;
+    use Illuminate\Foundation\Http\FormRequest;
 
 class CreateUserRequest extends FormRequest
 {
@@ -24,7 +24,7 @@ class CreateUserRequest extends FormRequest
         return [
             'name' => 'required|string|max:50',
             'email' => 'required|email',
-            'password' => 'required|min:5',
+            'passwor    d' => 'required|min:5',
             'cpassword' => 'required|same:password',
         ];
     }
